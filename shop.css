@@ -5,27 +5,25 @@
 }
 
 .container{
-    width: 70%;
+    width: 45%;
     margin: 0 auto;
     padding: 12px;
     background-color: lightyellow;
 }
 
+
 .card-image-info{
     width: calc(100% / 3 - 3px); 
     position: relative;
     display: inline-block;
+
 }
 
 .card-image-info img{
     max-width: 100%;
 }
 
-.hide{
-    display: none;
-}
-
-.container-image:hover .first-image{
+.hide, .container-image:hover .first-image{
     display: none;
 }
 
@@ -81,6 +79,15 @@ div.heart:hover {
     text-decoration: line-through;
 }
 
+.container-info-product span:first-child{
+    font-size: small;
+
+}
+
+.container-info-product span:nth-child(3){
+    font-size:medium;
+    font-weight: bolder;
+}
  /* HO PROVATO A FARLO RESPONSIVE
 
  .container-info-product h3{
