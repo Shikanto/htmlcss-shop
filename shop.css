@@ -18,23 +18,13 @@
 
 }
 
-.card-image-info img{
-    max-width: 100%;
-}
 
-.hide, .container-image:hover .first-image{
-    display: none;
-}
-
-.container-image:hover .hide{
-    display: block;
- 
 }
 .discount{
     background-color: red;
     color: white;
     padding: 5px;
-
+    
 }
 
 .badge{
@@ -52,9 +42,6 @@
     font-size: 35px;
 }
 
-div.heart:hover {
-    color:red;
-}
 
 .container-image{
     position: relative;
@@ -66,9 +53,6 @@ div.heart:hover {
     left:0;
 }
 
-.container-badges > span{
-    display: inline-block;
-}
 
 .special-price{
     color: red;
@@ -78,13 +62,34 @@ div.heart:hover {
     text-decoration: line-through;
 }
 
+/* SELETTORI AVANZATI CSS */
+
+.card-image-info img{
+    max-width: 100%;
+}
+
+.hide, .container-image:hover .first-image{
+    display: none;
+}
+
+.container-image:hover .hide{
+    display: block;
+}
+.container-badges > span{
+    display: inline-block;
+
+}
 .container-info-product span:first-child{
     font-size: smaller;
-
+    
 }
 
 .container-info-product span:nth-child(3){
     font-size:15px;
     font-weight: bolder;
+}
+
+div.heart:hover {
+    color:red;
 }
  
