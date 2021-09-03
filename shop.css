@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 920px;
+    margin: 0 auto;
+    padding: 12px;
+    background-color: lightyellow;
+}
+
+.card-container {
+    border: 2px solid black;   
+}
+
+.card-image{
+    border: 2px solid red;
+    width: calc(100% / 3); 
+}
