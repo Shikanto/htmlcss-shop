@@ -5,17 +5,86 @@
 }
 
 .container{
-    width: 920px;
+    width: 70%;
     margin: 0 auto;
     padding: 12px;
     background-color: lightyellow;
 }
 
-.card-container {
-    border: 2px solid black;   
+.card-image-info{
+    width: calc(100% / 3 - 3px); 
+    position: relative;
+    display: inline-block;
 }
 
-.card-image{
-    border: 2px solid red;
-    width: calc(100% / 3); 
+.card-image-info img{
+    max-width: 100%;
 }
+
+.hide{
+    display: none;
+}
+
+.container-image:hover .first-image{
+    display: none;
+}
+
+.container-image:hover .hide{
+    display: block;
+ 
+}
+.discount{
+    background-color: red;
+    color: white;
+    padding: 5px;
+
+}
+
+.badge{
+    background-color: green;
+    color: white;
+    padding: 5px 3px;
+}
+
+.heart{
+    position: absolute;
+    background-color: white;
+    padding:2px 12px;
+    right:0;
+    top:20px;
+    font-size: 35px;
+}
+
+div.heart:hover {
+    color:red;
+}
+
+.container-image{
+    position: relative;
+}
+
+.container-badges{
+    position: absolute;
+    bottom: 20px;
+    left:0;
+}
+
+.container-badges > span{
+    display: inline-block;
+}
+
+.special-price{
+    color: red;
+}
+
+.price{
+    text-decoration: line-through;
+}
+
+ /* HO PROVATO A FARLO RESPONSIVE
+
+ .container-info-product h3{
+    font-size: 2vmin;
+    font-size: 1vmax;
+}
+     */
