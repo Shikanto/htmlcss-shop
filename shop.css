@@ -13,7 +13,6 @@
 
 .card-image-info{
     width: calc(100% / 3 - 3px); 
-    position: relative;
     display: inline-block;
 
 }
@@ -90,4 +89,3 @@
 div.heart:hover {
     color:red;
 }
- 
